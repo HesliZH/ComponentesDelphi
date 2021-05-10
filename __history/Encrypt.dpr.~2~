@@ -1,0 +1,11 @@
+library Encrypt;
+
+
+
+uses
+  uTPLb_CryptographicLibrary, uTPLb_Codec, //Componentes LockBox
+  System.SysUtils;//FreeAndNil
+
+begin
+
+end.
