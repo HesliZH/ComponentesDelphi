@@ -22,12 +22,6 @@ var
   Key : String;
 
 
-procedure DefineChave(Chave: String);
-begin
-  Key := Chave;
-end;
-
-
 function EncryptAES(const Valor :String):String;
 var
   CryptoLib: TCryptographicLibrary;
